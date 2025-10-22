@@ -6,6 +6,8 @@ int main() {
     int i = 1;
     int o = 1;
     int p = 1;
+    int k;
+    int l = 1;
 
     printf("###Desafio Xadrez###\n\n");
 
@@ -31,6 +33,18 @@ int main() {
     for(p = 1; p <= 8; p++){
         printf("Esquerda\n");
     }
+
+    //Criando a movimentação do cavalo com loop aninhando
+    printf("\nMovimento do Cavalo:\n");
+
+    for(k = 1; k < 2; k++){
+        while(l <= 2){
+            printf("Baixo\n");
+            l++;
+        }
+        printf("Esquerda\n");
+    }
+
 
     return 0;
 }
