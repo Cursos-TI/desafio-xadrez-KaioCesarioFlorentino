@@ -5,7 +5,7 @@ int main() {
     //Declarando as variáveis que vão formar os loops
     int i = 1;
     int o = 1;
-    int p = 1;
+    int p;
     int k;
     int l = 1;
 
